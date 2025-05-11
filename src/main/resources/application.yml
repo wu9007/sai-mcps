@@ -1,0 +1,9 @@
+server:
+  port: 9000
+spring:
+  ai:
+    mcp:
+      server:
+        name: sai-mcps
+        version: 1.0.0
+        type: SYNC
