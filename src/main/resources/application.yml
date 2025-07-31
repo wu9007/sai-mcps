@@ -7,3 +7,6 @@ spring:
         name: sai-mcps
         version: 1.0.0
         type: SYNC
+        sse-endpoint: /sse
+        enabled: true
+        stdio: false

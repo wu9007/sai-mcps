@@ -13,7 +13,7 @@ import java.util.Map;
 @Service
 public class WeatherService {
 
-    @Tool(description = "根据城市获取天气预报")
+    @Tool(description = "根据中国城市名（如石家庄、北京、上海）获取天气预报")
     public String getWeather(String cityName) {
         Map<String, String> mockData = Map.of(
                 "石家庄", "晴天",
